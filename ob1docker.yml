@@ -16,7 +16,7 @@ services:
       - 9080:80
       - 9443:443
 
-   alternative adblocker
+# alternative adblocker
   pihole:
     container_name: pihole
     image: pihole/pihole:latest
